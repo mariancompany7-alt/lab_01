@@ -8,11 +8,19 @@
     border: 1px solid white;
     white-space: pre;
     font-family: monospace;
-    height: 230px;
+    height: 160px;
+}
+
+.red-el {
+    color: red;
+}
+
+.black-el {
+    color: black;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     padding: 20px;
 }
 
@@ -40,8 +48,10 @@ body {
     border: 1px solid grey;
     background-color: grey;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.6em;
     font-weight: bold;
+    justify-content: center;
+    align-items: center;
 }
 
 .black {
